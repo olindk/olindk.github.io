@@ -66,16 +66,16 @@
         <ul class="nav">
           <li>
             <a href="#showChartsList" rel="modal:open" id="show-charts-button">
-              <svg class="icon icon-file"><use xlink:href="#icon-file"></use></svg>Open…
+              <svg class="icon icon-file"><use xlink:href="#icon-file"></use></svg>My Charts
             </a>
+          </li>
+          <li><a href="#newSequenceDiagram" rel="modal:open">
+            <svg class="icon icon-seq"><use xlink:href="#icon-seq"></use></svg>New Sequence Diagram</a>
           </li>
           <li>
             <a href="#newFlowchart" rel="modal:open">
               <svg class="icon icon-flowchart"><use xlink:href="#icon-flowchart"></use></svg>New Flowchart
             </a>
-          </li>
-          <li><a href="#newSequenceDiagram" rel="modal:open">
-            <svg class="icon icon-seq"><use xlink:href="#icon-seq"></use></svg>New Sequence Diagram</a>
           </li>
           <li><a href="#about-chart-mage" rel="modal:open" title="About"><svg class="icon icon-about"><use xlink:href="#icon-about"></use></svg></a></li>
           <li><a href="mailto:chartmage@gmail.com" title="Feedback"><svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a></li>
@@ -133,7 +133,8 @@
     </div>
 
     <div id="showChartsList" style="display:none;">
-      <h1 class="modal-headline">All Charts</h1>
+      <h1 class="modal-headline">My Charts</h1>
+      <p class="modal-text">Your charts are saved in your browser. If you clear your browser's cache, they will be lost.</p>
       <table class="pure-table" id="chartsList">
         <tbody>
         </tbody>
