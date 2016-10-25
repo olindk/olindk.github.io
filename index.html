@@ -13,9 +13,8 @@
 
   </head>
   <body>
-    <script src="js/lib/bowser.min.js"></script>
     <script type="text/javascript">
-      if (bowser.msie)
+      if (/*@cc_on!@*/false || !!document.documentMode)
         window.location.replace("browser.html");
     </script>
 
