@@ -23,6 +23,8 @@
   </head>
   <body>
     <script type="text/javascript">
+      if (!localStorage.getItem("visited") || window.innerWidth < 768)
+        window.location.replace("intro.html");
       if (/*@cc_on!@*/false || !!document.documentMode)
         window.location.replace("browser.html");
     </script>
