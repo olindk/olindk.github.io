@@ -61,12 +61,12 @@
             </g>
         </svg>
       </div>
-      <h2>Draw sequence diagrams and flowcharts at lightning speed.</h2>
+      <h2>Generate sequence diagrams and flowcharts at lightning speed.</h2>
       <div class="header-content-phone">
         <img class="screenshot-phone cover" src="images/sequence-phone.png"</img>
-        <div class="carousel">
-          <div><img class="screenshot-phone" src="images/sequence-phone.png"</img></div>
-          <div><img class="screenshot-phone" src="images/flowchart-phone.png"</img></div>
+        <div class="carousel carousel-phone">
+          <img src="images/sequence-phone.png"</img>
+          <img src="images/flowchart-phone.png"</img>
         </div>
         <div class="fake-btn">Start Now</div>
         <p class="statement">Chart Mage needs more screen space to work with. Please come back on your computer.</p>
@@ -154,6 +154,7 @@
         $(".cover").remove();
         $(".carousel").slick({
           autoplay: true,
+          autoplaySpeed: 4000,
           arrows: false,
           swipe: false
         });
